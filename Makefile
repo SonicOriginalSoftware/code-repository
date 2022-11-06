@@ -1,5 +1,6 @@
-# .ONESHELL:
 .DEFAULT_GOAL := help
+
+APP_PATH := app
 
 IMAGE_TAG := code-repository
 BUILD_COMMAND := docker build
@@ -22,6 +23,8 @@ define USAGE
   Build code-repository
 
 endef
+
+include $(APP_PATH)/Makefile
 
 help:
 	$(info $(USAGE))
