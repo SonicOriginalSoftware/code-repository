@@ -1,26 +1,4 @@
 {
 	"version": "2.0.0",
-	"tasks": [
-		{
-			"type": "flutter",
-			"command": "flutter",
-			"args": [
-				"build",
-				"web",
-				"--release",
-				// "--tree-shake-icons",
-				"--csp",
-				"--no-source-maps",
-				"--base-href",
-				"/app/"
-			],
-			"options": {
-				"cwd": "app"
-			},
-			"group": "build",
-			"problemMatcher": [],
-			"label": "flutter: build web app",
-			"detail": "flutter: build web app"
-		}
-	]
+	"tasks": []
 }

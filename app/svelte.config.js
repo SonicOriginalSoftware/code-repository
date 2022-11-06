@@ -7,6 +7,8 @@ const config = {
 	// for more information about preprocessors
 	preprocess: preprocess(),
 
+	compilerOptions: {},
+
 	kit: {
 		adapter: adapter()
 	}
