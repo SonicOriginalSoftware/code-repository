@@ -1,0 +1,32 @@
+/* Display */
+.hidden {
+  display: none;
+}
+.hidden-important {
+  display: none !important;
+}
+
+.block {
+  display: block;
+}
+.inline-block {
+  display: inline-block;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.center-align-flex {
+  display: flex;
+  align-items: center;
+}
+
+/* Cursor */
+.pointer {
+  cursor: pointer;
+}
+
+.no-pointer-events {
+  pointer-events: none;
+}

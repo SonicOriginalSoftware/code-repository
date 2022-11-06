@@ -1,0 +1,21 @@
+{
+  "name": "Code Repository",
+  "short_name": "Code",
+  "description": "Host your code",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "icons/icon-192px.png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512px.png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "background_color": "#101010",
+  "theme_color": "#222222",
+  "display": "standalone"
+}
